@@ -57,11 +57,23 @@ pip install django
 ```
 djangotutorial/
 ├── manage.py
-├── djangotutorial/
+├── .gitignore
+├── mysite/
 │   ├── __init__.py
+│   ├── asgi.py
 │   ├── settings.py
 │   ├── urls.py
 │   └── wsgi.py
+├── polls/
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
 └── README.md
 ```
 
@@ -85,6 +97,10 @@ El servidor estará disponible en `http://localhost:8000/`
 Este proyecto es educativo y sigue la licencia de Django.
 
 ## Versiones
+
+### rc95 28/05/2026 00:32 - 0.0.6
+
+- Se ajusta el README
 
 ### rc95 28/05/2026 00:25 - 0.0.5
 
