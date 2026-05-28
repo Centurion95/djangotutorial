@@ -98,6 +98,10 @@ Este proyecto es educativo y sigue la licencia de Django.
 
 ## Versiones
 
+### rc95 28/05/2026 00:41 - 0.0.8
+
+- Se hace un pequeño rollback en `polls/models.py`
+
 ### rc95 28/05/2026 00:39 - 0.0.7
 
 - Se instala la extensión `Black Formatter` y se aplica en todos los archivos del proyecto
