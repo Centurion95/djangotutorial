@@ -98,9 +98,17 @@ Este proyecto es educativo y sigue la licencia de Django.
 
 ## Versiones
 
+### rc95 28/05/2026 00:54 - 0.0.9
+
+- Se activan las `INSTALLED_APPS` de `mysite/settings.py` y se crean las tablas en la base de datos, ejecutando el comando `python manage.py migrate`
+- Se crean los modelos `Question` y `Choice` en el archivo `polls/models.py`
+- Se activan los modelos incluyendo la app en el archivo `mysite/settings.py`
+- Se ejecutan las migraciones con el comando `python manage.py makemigrations polls`
+- Se puede obtener el script sql (o del motor de base de datos configurado) de esta migración con el comando `python manage.py sqlmigrate polls 0001`
+
 ### rc95 28/05/2026 00:41 - 0.0.8
 
-- Se hace un pequeño rollback en `polls/models.py`
+- Se hace un pequeño rollback en el archivo `polls/models.py`
 
 ### rc95 28/05/2026 00:39 - 0.0.7
 
