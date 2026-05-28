@@ -86,6 +86,10 @@ Este proyecto es educativo y sigue la licencia de Django.
 
 ## Versiones
 
+### rc95 28/05/2026 00:12 - 0.0.3
+
+- Se crea la vista `index` de `polls`, accesible desde `http://localhost:8000/polls/`
+
 ### rc95 28/05/2026 00:06 - 0.0.2
 
 - Se crea el proyecto `polls` con el comando `python manage.py startapp polls`
