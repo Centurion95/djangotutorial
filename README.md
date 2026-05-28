@@ -86,6 +86,15 @@ Este proyecto es educativo y sigue la licencia de Django.
 
 ## Versiones
 
+### rc95 28/05/2026 00:25 - 0.0.5
+
+- Se eliminan `db.sqlite3` and `__pycache__/` del repositorio, con el comando:
+
+```
+git rm --cached db.sqlite3
+git rm -r --cached mysite/__pycache__/
+```
+
 ### rc95 28/05/2026 00:17 - 0.0.4
 
 - Se crea el archivo `.gitignore`
