@@ -98,6 +98,11 @@ Este proyecto es educativo y sigue la licencia de Django.
 
 ## Versiones
 
+### rc95 28/05/2026 01:06 - 0.0.10
+
+- Se crea un usuario de administración con el comando `python manage.py createsuperuser`
+- Se hace la aplicación `polls` modificable en la interfaz de administración, incluyendo los modelos en el archivo `polls/admin.py`
+
 ### rc95 28/05/2026 00:54 - 0.0.9
 
 - Se activan las `INSTALLED_APPS` de `mysite/settings.py` y se crean las tablas en la base de datos, ejecutando el comando `python manage.py migrate`
