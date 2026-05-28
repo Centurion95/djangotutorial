@@ -86,6 +86,12 @@ Este proyecto es educativo y sigue la licencia de Django.
 
 ## Versiones
 
+### rc95 28/05/2026 00:17 - 0.0.4
+
+- Se crea el archivo `.gitignore`
+- Se cambian las configuraciones en el archivo `mysite/settings.py`
+- Se crean las tablas en la base de datos con el comando `python manage.py migrate`
+
 ### rc95 28/05/2026 00:12 - 0.0.3
 
 - Se crea la vista `index` de `polls`, accesible desde `http://localhost:8000/polls/`

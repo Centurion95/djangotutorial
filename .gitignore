@@ -1,0 +1,20 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtualenv
+venv/
+
+# Django
+db.sqlite3
+.env
+
+# Logs
+*.log
+
+# Frontend
+node_modules/
+build/
+
+# OS
+.DS_Store
